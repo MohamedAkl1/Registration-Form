@@ -12,3 +12,15 @@ while ($row=mysqli_fetch_array($result)){
    echo "<br>";
 }
  ?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <title>Choose Department</title>
+  </head>
+  <body>
+
+  </body>
+</html>
