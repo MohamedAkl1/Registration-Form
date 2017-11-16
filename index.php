@@ -31,30 +31,7 @@ if (isset($_POST['email'],$_POST['password'])) {
 <head>
   <title>Sign-up_page</title>
   <link rel="stylesheet" type="text/css" href="bootstrap.css">
-  <script type="text/javascript">
-              function validateForm(){
-                  var username = document.getElementById("username").value;
-                  var password = document.getElementById("password").value;
-                  var email = document.getElementById("email").value;
-                  if(username == null || username == ""){
-                      alert("Enter your first name! ");
-                      return false;
-                  }
-                  else if(password == null || password  == ""){
-                      alert("Enter your password ");
-                      return false;
-                  }
-
-                  else if (email == null || email == "")
-                  {
-                      alert("Enter your email! ");
-                      return false;
-                  }
-
-                      else return true;
-                  }
-          </script>
-
+  <script type="text/javascript" src="javascript.js"></script>
   </head>
 <body>
   <div class="container">
@@ -65,24 +42,15 @@ if (isset($_POST['email'],$_POST['password'])) {
         <input type="text" class="form-control" name="username"  placeholder="Enter Username" id = "username" required>
       </div>
 
-
-
-
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
         <input type="password" class="form-control" name="password"  placeholder="Password" id = "password" required>
       </div>
 
-
-
-
-
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" name="email"  placeholder="Enter email" id = "email" required>
       </div>
-
-
 
       <button type="submit" class="btn btn-primary btn-lg" value="Register">Submit</button>
 
@@ -103,7 +71,6 @@ if (isset($_POST['email'],$_POST['password'])) {
   <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
-
 
 </body>
 </html>
