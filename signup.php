@@ -1,7 +1,5 @@
-<?
-$username = $_POST["username"];
-$password = $_POST["password"];
-$email = $_POST["email"];
+<?php
+var_dump($_POST[password]);
 
-echo 'Hello ';
+echo "Hello";
  ?>
