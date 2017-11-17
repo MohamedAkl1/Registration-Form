@@ -34,6 +34,7 @@ if (isset($_POST['email'],$_POST['password'])) {
   <script type="text/javascript" src="javascript.js"></script>
   </head>
 <body>
+  <h2 class="container">Sign Up</h2>
   <div class="container">
     <form action="signup.php" method="post" onsubmit="return validateForm()" id="form">
 
@@ -56,12 +57,14 @@ if (isset($_POST['email'],$_POST['password'])) {
 
     </form>
   </div>
+<p></p>
+  <h2 class="container">Or, Sign in</h2>
 
   <form method="post" action="index.php" >
    <div class="container">
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="text" class="form-control" name="email" id="signInUsername"  placeholder="Enter Username"  required>
+    <input type="text" class="form-control" name="email" id="signInUsername"  placeholder="Enter Email"  required>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>

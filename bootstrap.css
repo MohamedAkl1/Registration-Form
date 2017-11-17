@@ -35,6 +35,12 @@
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
+#bta3y{
+    background-color: gray;
+}
+
+
 @media print {
   *,
   *::before,
@@ -633,7 +639,7 @@ pre code {
 }
 
 .container {
-  width: 100%;
+  width: 50%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
